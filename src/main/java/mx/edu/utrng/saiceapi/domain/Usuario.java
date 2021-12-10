@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name = "habilitados")
@@ -18,6 +19,8 @@ public class Usuario {
 	private String loginUsuario;
 	@Column(name = "contrasena")
 	private String contrasenia;
+	@Transient
+	private String token;
 
 	public Usuario() {
 		super();
@@ -52,6 +55,14 @@ public class Usuario {
 
 	public void setContrasenia(String contrasenia) {
 		this.contrasenia = contrasenia;
+	}
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
 	}
 
 	@Override
