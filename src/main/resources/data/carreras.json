@@ -1,0 +1,234 @@
+[
+	{
+		"ingenieria": {
+			"nombre": "Ingeniería en Desarrollo y Gestión de Software",			
+			"descripcion": "El Ingeniero en Desarrollo y Gestión de Software cuenta con las competencias profesionales necesarias para su desempeño en el campo laboral, en el ámbito local, regional y nacional.",
+			"area": "Área Desarrollo de Software Multiplataforma",
+			"competencias_profesionales":{"descripcion":"El Ingeniero en Desarrollo y Gestión de Software cuenta con las competencias profesionales necesarias para su desempeño en el campo laboral, en el ámbito local, regional y nacional.","competencias_genericas":["Plantear y solucionar problemas con base en los principios y teorías de matemáticas, a través del método científico para sustentar la toma de decisiones en los ámbitos científico y tecnológico.","Desarrollar y fortalecer las habilidades instrumentales, interpersonales, sistémicas y directivas para comunicarse en un segundo idioma."],"competencias_especificas":["Construir soluciones de software y sistemas inteligentes mediante la gestión de proyectos, integración de metodologías, modelos y herramientas de desarrollo bajo la normatividad aplicable para la optimización de proyectos de investigación, innovación, desarrollo tecnológico y de emprendimiento."],"perfil_egreso":{}},
+			"plan_estudios":{
+				"7o.":[],
+				"8o.":[],
+				"9o.":[],
+				"10o.":[],
+				"11o.":["Estadía"]
+			}			
+		},
+		"tsu": {
+			"nombre": "Técnico Superior Universitario En Tecnologías de la Información área Desarrollo de Software Multiplataforma",
+			"descripcion":"El Técnico Superior Universitario en Tecnologías de la Información área Desarrollo de Software Multiplataforma cuenta con las competencias profesionales necesarias para su desempeño en el campo laboral, en el ámbito local, regional, nacional e internacional.",
+			"area": "Área Desarrollo de Software Multiplataforma",
+			"competencias_profesionales":{"descripcion":"Las competencias profesionales son las destrezas y actitudes que permiten al Técnico Superior Universitario desarrollar actividades en su área profesional, adaptarse a nuevas situaciones, así como transferir, si es necesario, sus conocimientos, habilidades y actitudes a áreas profesionales próximas.","competencias_genericas":["Desarrollar soluciones tecnológicas para entornos Web mediante fundamentos de programación orientada a objetos, base de datos y redes de área local que atiendan las necesidades de las organizaciones."],"competencias_especificas":["Implementar soluciones multiplataforma, en la nube y software embebido, en entornos seguros mediante la adquisición y administración de datos e ingeniería de software para contribuir a la automatización de los procesos en las organizaciones.","Desarrollar sistemas de información empleando frameworks, patrones de diseño y arquitecturas de desarrollo para generar soluciones multiplataforma, en la nube y software embebido."],"perfil_egreso":["El Técnico Superior Universitario en Tecnologías de la Información área Desarrollo de Software Multiplataforma, podrá desenvolverse en:","Organizaciones públicas y privadas dedicadas al desarrollo y consultoría de software.","Organizaciones públicas y privadas que cuenten con un área o departamento de TI.","En su propia empresa de integración de soluciones de software.","En forma independiente mediante consultorías de bienes y servicios."]},
+			"plan_estudios":{
+				"1o.":["Algebra lineal","Desarrollo de habilidades del pensamiento lógico","Fundamentos de TI","Fundamentos de redes","Metodología de la programación","Expresión oral y escrita I","Inglés I","Formación sociocultural I"],
+				"2o.":["Funciones matemáticas","Metodológias y modelado de desarrollo de software","Interconexión de redes","Programación orientada a objetos","Introducción al diseño digital","Base de datos","Inglés II","Formación sociocultural II"],
+				"3o.":["Calculo diferencial","Probabilidad y estadística","Sistemas Operativos","Integradora I","Aplicaciones Web","Base de datos para aplicaciones","Inglés III", "Formación sociocultural III"],
+				"4o.":["Estándares y métricas para el desarrolo de software", "Principios para IoT","Diseño de Apps","Estructura de datos Aplicadas","Aplicaciones Web orientada a servicios","Evaluación y mejora para el desarrollo de software","Inglés IV", "Formación sociocultural IV"],
+				"5o.":["Aplicaciones de IoT","Desarrollo móvil multiplataforma", "Integradora II","Aplicaciones Web para l4.0","Base de datos para cómputo en la  nube","Expresión oral y escrita II","Inglés V"],
+				"6o.":["Estadía"]
+			}
+		}
+	},
+	{
+		"ingenieria": {
+			"nombre": "Ingeniería en Metal Mécanica",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"7o.":[],
+				"8o.":[],
+				"9o.":[],
+				"10o.":[],
+				"11o.":["Estadía"]
+			}
+		},
+		"tsu": {
+			"nombre": "Técnico Superior Universitario en Mecánica, Área Industrial",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"1o.":[],
+				"2o.":[],
+				"3o.":[],
+				"4o.":[],
+				"5o.":[],
+				"6o.":["Estadía"]
+			}
+		}
+	},
+	{
+		"ingenieria": {
+			"nombre": "Ingeniería Industrial",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"7o.":[],
+				"8o.":[],
+				"9o.":[],
+				"10o.":[],
+				"11o.":["Estadía"]
+			}
+		},
+		"tsu": {
+			"nombre": "Técnico Superior Universitario en Procesos Industriales Área Manufactura",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"1o.":[],
+				"2o.":[],
+				"3o.":[],
+				"4o.":[],
+				"5o.":[],
+				"6o.":["Estadía"]
+			}
+		}
+	},
+	{
+		"ingenieria": {
+			"nombre": "Ingeniería en Diseño Textil y Moda",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"7o.":[],
+				"8o.":[],
+				"9o.":[],
+				"10o.":[],
+				"11o.":["Estadía"]
+			}
+		},
+		"tsu": {
+			"nombre": "Técnico Superior Universitario en Diseño y Moda Industrial Área, Producción",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"1o.":[],
+				"2o.":[],
+				"3o.":[],
+				"4o.":[],
+				"5o.":[],
+				"6o.":["Estadía"]
+			}
+		}
+	},
+	{
+		"ingenieria": {
+			"nombre": "Ingeniería en Ingeniería en Mecatrónica",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"7o.":[],
+				"8o.":[],
+				"9o.":[],
+				"10o.":[],
+				"11o.":["Estadía"]
+			}
+		},
+		"tsu": {
+			"nombre": "Técnico Superior Universitario en Mecatrónica Área Automatización",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"1o.":[],
+				"2o.":[],
+				"3o.":[],
+				"4o.":[],
+				"5o.":[],
+				"6o.":["Estadía"]
+			}
+		}
+	},
+	{
+		"ingenieria": {
+			"nombre": "Licenciatura en Protección Civil Y Emergencias",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"7o.":[],
+				"8o.":[],
+				"9o.":[],
+				"10o.":[],
+				"11o.":["Estadía"]
+			}
+		},
+		"tsu": {
+			"nombre": "Técnico Superior Universitario en Paramédico",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"1o.":[],
+				"2o.":[],
+				"3o.":[],
+				"4o.":[],
+				"5o.":[],
+				"6o.":["Estadía"]
+			}
+		}
+	},
+	{
+		"ingenieria": {
+			"nombre": "Licenciatura en Innovación de Negocios y Mercadotecnia",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"7o.":[],
+				"8o.":[],
+				"9o.":[],
+				"10o.":[],
+				"11o.":["Estadía"]
+			}
+		},
+		"tsu": {
+			"nombre": "Técnico Superior Universitario en Desarrollo de Negocios Área Mercadotecnia",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"1o.":[],
+				"2o.":[],
+				"3o.":[],
+				"4o.":[],
+				"5o.":[],
+				"6o.":["Estadía"]
+			}
+		}
+	},
+	{
+		"ingenieria": {
+			"nombre": "Licenciatura en Gestión de Negocios y Proyectos",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"7o.":[],
+				"8o.":[],
+				"9o.":[],
+				"10o.":[],
+				"11o.":["Estadía"]
+			}
+		},
+		"tsu": {
+			"nombre": "Tecnico Superior Universitario en Administración",
+			"descripcion": "",
+			"area": "",
+			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
+			"plan_estudios":{
+				"1o.":[],
+				"2o.":[],
+				"3o.":[],
+				"4o.":[],
+				"5o.":[],
+				"6o.":["Estadía"]
+			}
+		}
+	}
+]
