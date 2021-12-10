@@ -71,9 +71,4 @@ public class UsuarioBusquedaDTO {
 		}
 	}
 
-	@Override
-	public String toString() {
-		return "UsuarioBusquedaDTO [loginUsuario=" + loginUsuario + ", contrasenia=" + contrasenia + "]";
-	}
-
 }
