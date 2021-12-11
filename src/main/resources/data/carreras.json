@@ -6,10 +6,11 @@
 			"area": "Área Desarrollo de Software Multiplataforma",
 			"competencias_profesionales":{"descripcion":"El Ingeniero en Desarrollo y Gestión de Software cuenta con las competencias profesionales necesarias para su desempeño en el campo laboral, en el ámbito local, regional y nacional.","competencias_genericas":["Plantear y solucionar problemas con base en los principios y teorías de matemáticas, a través del método científico para sustentar la toma de decisiones en los ámbitos científico y tecnológico.","Desarrollar y fortalecer las habilidades instrumentales, interpersonales, sistémicas y directivas para comunicarse en un segundo idioma."],"competencias_especificas":["Construir soluciones de software y sistemas inteligentes mediante la gestión de proyectos, integración de metodologías, modelos y herramientas de desarrollo bajo la normatividad aplicable para la optimización de proyectos de investigación, innovación, desarrollo tecnológico y de emprendimiento."],"perfil_egreso":{}},
 			"plan_estudios":{
-				"7o.":[],
-				"8o.":[],
-				"9o.":[],
-				"10o.":[],
+				"vigencia_desde":"Septiembre 2020",
+				"7o.":["Matemáticas para ingeniería I","Metodologías para el desarrollo de proyectos","Arquitectura de software","Experiencia de usuario","Seguridad informática","Inglés VI","Administración del tiempo"],
+				"8o.":["Matemáticas para ingeniería II","Administración de base de datos","Desarrollo web profesional","Seguridad en el desarrollo de aplicaciones","Optativa I","Inglés VII","Planeación y organización del trabajo"],
+				"9o.":["Administración de proyectos de TI","Extracción de conocimiento en base de datos","Desarrollo web integral","Desarrollo para dispostivos inteligentes","Inglés VIII","Dirección de equipos de alto rendimiento"],
+				"10o.":["Gestión del proceso de desarrollo de software","Aplicaciones web progresivas","Integradora","Desarrollo móvil integral","Optativa 1: Creación de videojuegos","Inglés IX","Negociación empresarial"],
 				"11o.":["Estadía"]
 			}			
 		},
@@ -19,6 +20,7 @@
 			"area": "Área Desarrollo de Software Multiplataforma",
 			"competencias_profesionales":{"descripcion":"Las competencias profesionales son las destrezas y actitudes que permiten al Técnico Superior Universitario desarrollar actividades en su área profesional, adaptarse a nuevas situaciones, así como transferir, si es necesario, sus conocimientos, habilidades y actitudes a áreas profesionales próximas.","competencias_genericas":["Desarrollar soluciones tecnológicas para entornos Web mediante fundamentos de programación orientada a objetos, base de datos y redes de área local que atiendan las necesidades de las organizaciones."],"competencias_especificas":["Implementar soluciones multiplataforma, en la nube y software embebido, en entornos seguros mediante la adquisición y administración de datos e ingeniería de software para contribuir a la automatización de los procesos en las organizaciones.","Desarrollar sistemas de información empleando frameworks, patrones de diseño y arquitecturas de desarrollo para generar soluciones multiplataforma, en la nube y software embebido."],"perfil_egreso":["El Técnico Superior Universitario en Tecnologías de la Información área Desarrollo de Software Multiplataforma, podrá desenvolverse en:","Organizaciones públicas y privadas dedicadas al desarrollo y consultoría de software.","Organizaciones públicas y privadas que cuenten con un área o departamento de TI.","En su propia empresa de integración de soluciones de software.","En forma independiente mediante consultorías de bienes y servicios."]},
 			"plan_estudios":{
+				"vigencia_desde":"Septiembre 2018",
 				"1o.":["Algebra lineal","Desarrollo de habilidades del pensamiento lógico","Fundamentos de TI","Fundamentos de redes","Metodología de la programación","Expresión oral y escrita I","Inglés I","Formación sociocultural I"],
 				"2o.":["Funciones matemáticas","Metodológias y modelado de desarrollo de software","Interconexión de redes","Programación orientada a objetos","Introducción al diseño digital","Base de datos","Inglés II","Formación sociocultural II"],
 				"3o.":["Calculo diferencial","Probabilidad y estadística","Sistemas Operativos","Integradora I","Aplicaciones Web","Base de datos para aplicaciones","Inglés III", "Formación sociocultural III"],
@@ -35,10 +37,11 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
-				"7o.":[],
-				"8o.":[],
-				"9o.":[],
-				"10o.":[],
+				"vigencia_desde":"Septiembre 2017",
+				"7o.":["MATEMÁTICAS PARA INGENIERÍA I","FÍSICA PARA INGENIERÍA","CIENCIA DE LOS MATERIALES","MÉTODOLOGÍA DE LA INVESTIGACIÓN PARA EL DISEÑO","ADMINISTRACIÓN INDUSTRIAL","INGLÉS VI","ADMINISTRACIÓN DEL TIEMPO"],
+				"8o.":["MATEMÁTICAS PARA INGENIERÍA II","TECNOLOGÍAS DE LOS MECANISMOS","PROCESOS DE CONFORMADO","INGENIERÍA ECONÓMICA","INGLÉS VII","PLANEACIÓN Y ORGANIZACIÓN DEL TRABAJO"],
+				"9o.":["MECÁNICA DE SÓLIDOS","DISEÑO ASISTIDO POR COMPUTADORA","TRANSFERENCIA DE CALOR","SEGURIDAD E HIGIENE INDUSTRIAL","INTEGRADORA I","SEGURIDAD E HIGIENE INDUSTRIAL","INTEGRADORA I","OPTATIVA I","DIRECCIÓN DE EQUIPOS DE ALTO RENDIMIENTO"],
+				"10o.":["MANUFACTURA ASISTIDA POR COMPUTADORA","DISEÑO MECÁNICO","INSTRUMENTACIÓN Y CONTROL","INTEGRADORA II","OPTATIVA II","INGLÉS IX","NEGOCIACIÓN EMPRESARIAL"],
 				"11o.":["Estadía"]
 			}
 		},
@@ -48,11 +51,12 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
-				"1o.":[],
-				"2o.":[],
-				"3o.":[],
-				"4o.":[],
-				"5o.":[],
+				"vigencia_desde":"",
+				"1o.":["ÁLGEBRA LINEAL","QUÍMICA BÁSICA","METROLOGÍA","TECNOLOGÍAS DIGITALES","DIBUJO TÉCNICO INDUSTRIAL","INGLÉS I","EXPRESIÓN ORAL Y ESCRITA I"],
+				"2o.":["FUNCIONES MATEMÁTICAS","PROBABILIDAD Y ESTADÍSTICA","FÍSICA","ELECTRICIDAD Y MAGNETISMO","DISEÑO ASISTIDO POR COMPUTADORA","MANUFACTURA I","INGLÉS II","FORMACIÓN SOCIOCULTURAL I"],
+				"3o.":["CÁLCULO DIFERENCIAL","ESTRUCTURA Y PROPIEDADES DE LOS MATERIALES ","RESISTENCIA DE MATERIALES","TECNOLOGIAS DE MANUFACTURA","MANUFACTURA II","TÓPICOS DE MECÁNICA","INTEGRADORA I","INGLÉS III","FORMACIÓN SOCIOCULTURAL II"],
+				"4o.":["CÁLCULO INTEGRAL","TERMODINÁMICA","SEGURIDAD INDUSTRIAL","ANÁLISIS Y SELECCIÓN DE ELEMENTOS MECÁNICOS","INSTRUMENTACIÓN INDUSTRIAL","MANTENIMIENTO","HIDRÁULICA","INGLÉS IV","FORMACIÓN SOCIOCULTURAL III"],
+				"5o.":["SISTEMAS DE COMBUSTIÓN Y CALDERAS","AIRE ACONDICIONADO Y REFRIGERACIÓN","AUTOMATIZACIÓN Y CONTROL ","INGENIERÍA INDUSTRIAL","VEHÍCULOS AUTOMOTORES","INTEGRADORA II","INGLÉS V","EXPRESIÓN ORAL Y ESCRITA II","FORMACIÓN SOCIOCULTURAL IV"],
 				"6o.":["Estadía"]
 			}
 		}
@@ -64,6 +68,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"7o.":[],
 				"8o.":[],
 				"9o.":[],
@@ -77,6 +82,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"1o.":[],
 				"2o.":[],
 				"3o.":[],
@@ -93,6 +99,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"7o.":[],
 				"8o.":[],
 				"9o.":[],
@@ -106,6 +113,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"1o.":[],
 				"2o.":[],
 				"3o.":[],
@@ -122,6 +130,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"7o.":[],
 				"8o.":[],
 				"9o.":[],
@@ -135,6 +144,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"1o.":[],
 				"2o.":[],
 				"3o.":[],
@@ -151,6 +161,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"7o.":[],
 				"8o.":[],
 				"9o.":[],
@@ -164,6 +175,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"1o.":[],
 				"2o.":[],
 				"3o.":[],
@@ -180,6 +192,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"7o.":[],
 				"8o.":[],
 				"9o.":[],
@@ -193,6 +206,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"1o.":[],
 				"2o.":[],
 				"3o.":[],
@@ -209,6 +223,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"7o.":[],
 				"8o.":[],
 				"9o.":[],
@@ -222,6 +237,7 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
+				"vigencia_desde":"",
 				"1o.":[],
 				"2o.":[],
 				"3o.":[],
