@@ -37,6 +37,7 @@ public class CalificacionAlumno {
 	private Date fcm1;
 	@Column(name = "cr1_1")
 	private double cr11;
+	@Column(name = "caro1_1")
 	private int caro11;
 	@Column(name = "fcr1_1")
 	private Date fcr11;
@@ -44,6 +45,7 @@ public class CalificacionAlumno {
 	private Date fcm2;
 	@Column(name = "cr2_1")
 	private double cr21;
+	@Column(name = "caro2_1")
 	private int caro21;
 	@Column(name = "fcr2_1")
 	private Date fcr21;
@@ -51,6 +53,7 @@ public class CalificacionAlumno {
 	private Date fcm3;
 	@Column(name = "cr3_1")
 	private double cr31;
+	@Column(name = "caro3_1")
 	private int caro31;
 	@Column(name = "fcr3_1")
 	private Date fcr31;
