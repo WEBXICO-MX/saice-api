@@ -32,6 +32,70 @@ public class GrupoId implements Serializable {
 		this.cvePeriodo = cvePeriodo;
 	}
 
+	public int getCveGrupo() {
+		return cveGrupo;
+	}
+
+	public void setCveGrupo(int cveGrupo) {
+		this.cveGrupo = cveGrupo;
+	}
+
+	public int getCveTurno() {
+		return cveTurno;
+	}
+
+	public void setCveTurno(int cveTurno) {
+		this.cveTurno = cveTurno;
+	}
+
+	public int getCvePlan() {
+		return cvePlan;
+	}
+
+	public void setCvePlan(int cvePlan) {
+		this.cvePlan = cvePlan;
+	}
+
+	public int getCveCarrera() {
+		return cveCarrera;
+	}
+
+	public void setCveCarrera(int cveCarrera) {
+		this.cveCarrera = cveCarrera;
+	}
+
+	public int getCveDivision() {
+		return cveDivision;
+	}
+
+	public void setCveDivision(int cveDivision) {
+		this.cveDivision = cveDivision;
+	}
+
+	public int getCveUnidadAcademica() {
+		return cveUnidadAcademica;
+	}
+
+	public void setCveUnidadAcademica(int cveUnidadAcademica) {
+		this.cveUnidadAcademica = cveUnidadAcademica;
+	}
+
+	public int getCveUniversidad() {
+		return cveUniversidad;
+	}
+
+	public void setCveUniversidad(int cveUniversidad) {
+		this.cveUniversidad = cveUniversidad;
+	}
+
+	public int getCvePeriodo() {
+		return cvePeriodo;
+	}
+
+	public void setCvePeriodo(int cvePeriodo) {
+		this.cvePeriodo = cvePeriodo;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(cveCarrera, cveDivision, cveGrupo, cvePeriodo, cvePlan, cveTurno, cveUnidadAcademica,

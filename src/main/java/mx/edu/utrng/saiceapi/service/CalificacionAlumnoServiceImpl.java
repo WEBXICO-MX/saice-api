@@ -17,8 +17,7 @@ public class CalificacionAlumnoServiceImpl implements CalificacionAlumnoService 
 	@Override
 	public List<CalificacionAlumno> findBycveUniversidadAndcveAlumno(CalificacionAlumnoBusquedaDTO calificacionAlumno) {
 		// TODO Auto-generated method stub
-		return calificacionAlumnoRepository.findBycveUniversidadAndcveAlumno(calificacionAlumno.getCveUniversidad(),
-				calificacionAlumno.getCveAlumno());
+		return calificacionAlumnoRepository.findByCveAlumnoAndCveUniversidad(calificacionAlumno.getCveAlumno(),calificacionAlumno.getCveUniversidad());
 	}
 
 }

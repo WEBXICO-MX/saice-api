@@ -3,70 +3,55 @@ package mx.edu.utrng.saiceapi.domain;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
-@Table(name="alumnos")
+@Table(name = "alumnos")
 @IdClass(AlumnoId.class)
 public class Alumno implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	@Id
+	@Column(name = "cve_alumno")
 	private int cveAlumno;
 	@Id
+	@Column(name = "cve_universidad")
 	private int cveUniversidad;
 	private String matricula;
-	private int cveGrupo;
-	private int cvePlan;
-	private int cveCarrera;
-	private int cveDivision;
-	private int cveUnidadAcademica;
-	private int cveTurno;
-	private int cveStatus;
-	private int cvePeriodoActual;
-	private byte gradoActual;
+	private Integer cveGrupo;
+	private Integer cvePlan;
+	private Integer cveCarrera;
+	private Integer cveDivision;
+	private Integer cveUnidadAcademica;
+	private Integer cveTurno;
+	private Integer cveStatus;
+	private Integer cvePeriodoActual;
+	private Byte gradoActual;
 	private Date fechaAlta;
-	private boolean becado;
+	private Boolean becado;
 	private String notas;
-	private boolean activo;
-	private int cveGeneracion;
-	private int cvePeriodoInicio;
-	private int cveGeneracionActual;
+	private Boolean activo;
+	private Integer cveGeneracion;
+	private Integer cvePeriodoInicio;
+	private Integer cveGeneracionActual;
 	private String cedulaProfesional;
+	@OneToMany(fetch = FetchType.LAZY, cascade = { CascadeType.ALL }, mappedBy = "alumno")
+	@JsonIgnore
+	private Set<CalificacionAlumno> calificacionesAlumno;
 
 	public Alumno() {
 		super();
-	}
-
-	public Alumno(int cveAlumno, int cveUniversidad, String matricula, int cveGrupo, int cvePlan, int cveCarrera,
-			int cveDivision, int cveUnidadAcademica, int cveTurno, int cveStatus, int cvePeriodoActual,
-			byte gradoActual, Date fechaAlta, boolean becado, String notas, boolean activo, int cveGeneracion,
-			int cvePeriodoInicio, int cveGeneracionActual, String cedulaProfesional) {
-		super();
-		this.cveAlumno = cveAlumno;
-		this.cveUniversidad = cveUniversidad;
-		this.matricula = matricula;
-		this.cveGrupo = cveGrupo;
-		this.cvePlan = cvePlan;
-		this.cveCarrera = cveCarrera;
-		this.cveDivision = cveDivision;
-		this.cveUnidadAcademica = cveUnidadAcademica;
-		this.cveTurno = cveTurno;
-		this.cveStatus = cveStatus;
-		this.cvePeriodoActual = cvePeriodoActual;
-		this.gradoActual = gradoActual;
-		this.fechaAlta = fechaAlta;
-		this.becado = becado;
-		this.notas = notas;
-		this.activo = activo;
-		this.cveGeneracion = cveGeneracion;
-		this.cvePeriodoInicio = cvePeriodoInicio;
-		this.cveGeneracionActual = cveGeneracionActual;
-		this.cedulaProfesional = cedulaProfesional;
 	}
 
 	public int getCveAlumno() {
@@ -93,75 +78,75 @@ public class Alumno implements Serializable {
 		this.matricula = matricula;
 	}
 
-	public int getCveGrupo() {
+	public Integer getCveGrupo() {
 		return cveGrupo;
 	}
 
-	public void setCveGrupo(int cveGrupo) {
+	public void setCveGrupo(Integer cveGrupo) {
 		this.cveGrupo = cveGrupo;
 	}
 
-	public int getCvePlan() {
+	public Integer getCvePlan() {
 		return cvePlan;
 	}
 
-	public void setCvePlan(int cvePlan) {
+	public void setCvePlan(Integer cvePlan) {
 		this.cvePlan = cvePlan;
 	}
 
-	public int getCveCarrera() {
+	public Integer getCveCarrera() {
 		return cveCarrera;
 	}
 
-	public void setCveCarrera(int cveCarrera) {
+	public void setCveCarrera(Integer cveCarrera) {
 		this.cveCarrera = cveCarrera;
 	}
 
-	public int getCveDivision() {
+	public Integer getCveDivision() {
 		return cveDivision;
 	}
 
-	public void setCveDivision(int cveDivision) {
+	public void setCveDivision(Integer cveDivision) {
 		this.cveDivision = cveDivision;
 	}
 
-	public int getCveUnidadAcademica() {
+	public Integer getCveUnidadAcademica() {
 		return cveUnidadAcademica;
 	}
 
-	public void setCveUnidadAcademica(int cveUnidadAcademica) {
+	public void setCveUnidadAcademica(Integer cveUnidadAcademica) {
 		this.cveUnidadAcademica = cveUnidadAcademica;
 	}
 
-	public int getCveTurno() {
+	public Integer getCveTurno() {
 		return cveTurno;
 	}
 
-	public void setCveTurno(int cveTurno) {
+	public void setCveTurno(Integer cveTurno) {
 		this.cveTurno = cveTurno;
 	}
 
-	public int getCveStatus() {
+	public Integer getCveStatus() {
 		return cveStatus;
 	}
 
-	public void setCveStatus(int cveStatus) {
+	public void setCveStatus(Integer cveStatus) {
 		this.cveStatus = cveStatus;
 	}
 
-	public int getCvePeriodoActual() {
+	public Integer getCvePeriodoActual() {
 		return cvePeriodoActual;
 	}
 
-	public void setCvePeriodoActual(int cvePeriodoActual) {
+	public void setCvePeriodoActual(Integer cvePeriodoActual) {
 		this.cvePeriodoActual = cvePeriodoActual;
 	}
 
-	public byte getGradoActual() {
+	public Byte getGradoActual() {
 		return gradoActual;
 	}
 
-	public void setGradoActual(byte gradoActual) {
+	public void setGradoActual(Byte gradoActual) {
 		this.gradoActual = gradoActual;
 	}
 
@@ -173,11 +158,11 @@ public class Alumno implements Serializable {
 		this.fechaAlta = fechaAlta;
 	}
 
-	public boolean isBecado() {
+	public Boolean getBecado() {
 		return becado;
 	}
 
-	public void setBecado(boolean becado) {
+	public void setBecado(Boolean becado) {
 		this.becado = becado;
 	}
 
@@ -189,35 +174,35 @@ public class Alumno implements Serializable {
 		this.notas = notas;
 	}
 
-	public boolean isActivo() {
+	public Boolean getActivo() {
 		return activo;
 	}
 
-	public void setActivo(boolean activo) {
+	public void setActivo(Boolean activo) {
 		this.activo = activo;
 	}
 
-	public int getCveGeneracion() {
+	public Integer getCveGeneracion() {
 		return cveGeneracion;
 	}
 
-	public void setCveGeneracion(int cveGeneracion) {
+	public void setCveGeneracion(Integer cveGeneracion) {
 		this.cveGeneracion = cveGeneracion;
 	}
 
-	public int getCvePeriodoInicio() {
+	public Integer getCvePeriodoInicio() {
 		return cvePeriodoInicio;
 	}
 
-	public void setCvePeriodoInicio(int cvePeriodoInicio) {
+	public void setCvePeriodoInicio(Integer cvePeriodoInicio) {
 		this.cvePeriodoInicio = cvePeriodoInicio;
 	}
 
-	public int getCveGeneracionActual() {
+	public Integer getCveGeneracionActual() {
 		return cveGeneracionActual;
 	}
 
-	public void setCveGeneracionActual(int cveGeneracionActual) {
+	public void setCveGeneracionActual(Integer cveGeneracionActual) {
 		this.cveGeneracionActual = cveGeneracionActual;
 	}
 
@@ -227,6 +212,14 @@ public class Alumno implements Serializable {
 
 	public void setCedulaProfesional(String cedulaProfesional) {
 		this.cedulaProfesional = cedulaProfesional;
+	}
+
+	public Set<CalificacionAlumno> getCalificacionesAlumno() {
+		return calificacionesAlumno;
+	}
+
+	public void setCalificacionesAlumno(Set<CalificacionAlumno> calificacionesAlumno) {
+		this.calificacionesAlumno = calificacionesAlumno;
 	}
 
 	@Override
@@ -242,9 +235,9 @@ public class Alumno implements Serializable {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(activo, becado, cedulaProfesional, cveAlumno, cveCarrera, cveDivision, cveGeneracion,
-				cveGeneracionActual, cveGrupo, cvePeriodoActual, cvePeriodoInicio, cvePlan, cveStatus, cveTurno,
-				cveUnidadAcademica, cveUniversidad, fechaAlta, gradoActual, matricula, notas);
+		return Objects.hash(activo, becado, calificacionesAlumno, cedulaProfesional, cveAlumno, cveCarrera, cveDivision,
+				cveGeneracion, cveGeneracionActual, cveGrupo, cvePeriodoActual, cvePeriodoInicio, cvePlan, cveStatus,
+				cveTurno, cveUnidadAcademica, cveUniversidad, fechaAlta, gradoActual, matricula, notas);
 	}
 
 	@Override
@@ -256,16 +249,19 @@ public class Alumno implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Alumno other = (Alumno) obj;
-		return activo == other.activo && becado == other.becado
+		return Objects.equals(activo, other.activo) && Objects.equals(becado, other.becado)
+				&& Objects.equals(calificacionesAlumno, other.calificacionesAlumno)
 				&& Objects.equals(cedulaProfesional, other.cedulaProfesional) && cveAlumno == other.cveAlumno
-				&& cveCarrera == other.cveCarrera && cveDivision == other.cveDivision
-				&& cveGeneracion == other.cveGeneracion && cveGeneracionActual == other.cveGeneracionActual
-				&& cveGrupo == other.cveGrupo && cvePeriodoActual == other.cvePeriodoActual
-				&& cvePeriodoInicio == other.cvePeriodoInicio && cvePlan == other.cvePlan
-				&& cveStatus == other.cveStatus && cveTurno == other.cveTurno
-				&& cveUnidadAcademica == other.cveUnidadAcademica && cveUniversidad == other.cveUniversidad
-				&& Objects.equals(fechaAlta, other.fechaAlta) && gradoActual == other.gradoActual
-				&& Objects.equals(matricula, other.matricula) && Objects.equals(notas, other.notas);
+				&& Objects.equals(cveCarrera, other.cveCarrera) && Objects.equals(cveDivision, other.cveDivision)
+				&& Objects.equals(cveGeneracion, other.cveGeneracion)
+				&& Objects.equals(cveGeneracionActual, other.cveGeneracionActual)
+				&& Objects.equals(cveGrupo, other.cveGrupo) && Objects.equals(cvePeriodoActual, other.cvePeriodoActual)
+				&& Objects.equals(cvePeriodoInicio, other.cvePeriodoInicio) && Objects.equals(cvePlan, other.cvePlan)
+				&& Objects.equals(cveStatus, other.cveStatus) && Objects.equals(cveTurno, other.cveTurno)
+				&& Objects.equals(cveUnidadAcademica, other.cveUnidadAcademica)
+				&& cveUniversidad == other.cveUniversidad && Objects.equals(fechaAlta, other.fechaAlta)
+				&& Objects.equals(gradoActual, other.gradoActual) && Objects.equals(matricula, other.matricula)
+				&& Objects.equals(notas, other.notas);
 	}
 
 }

@@ -6,48 +6,120 @@ import java.util.Objects;
 public class CalificacionAlumnoId implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	private Grupo cveGrupo;
-	private Alumno cveAlumno;
-	private Materia cveMateria;
+	private int cveGrupo;
+	private int cveTurno;
+	private int cvePlan;
+	private int cveCarrera;
+	private int cveDivision;
+	private int cveUnidadAcademica;
+	private int cveUniversidad;
+	private int cvePeriodo;
+	private int cveAlumno;
+	private String cveMateria;
 
 	public CalificacionAlumnoId() {
 		super();
 	}
 
-	public CalificacionAlumnoId(Grupo cveGrupo, Alumno cveAlumno, Materia cveMateria) {
+	public CalificacionAlumnoId(int cveGrupo, int cveTurno, int cvePlan, int cveCarrera, int cveDivision,
+			int cveUnidadAcademica, int cveUniversidad, int cvePeriodo, int cveAlumno, String cveMateria) {
 		super();
 		this.cveGrupo = cveGrupo;
+		this.cveTurno = cveTurno;
+		this.cvePlan = cvePlan;
+		this.cveCarrera = cveCarrera;
+		this.cveDivision = cveDivision;
+		this.cveUnidadAcademica = cveUnidadAcademica;
+		this.cveUniversidad = cveUniversidad;
+		this.cvePeriodo = cvePeriodo;
 		this.cveAlumno = cveAlumno;
 		this.cveMateria = cveMateria;
 	}
 
-	public Grupo getCveGrupo() {
+	public int getCveGrupo() {
 		return cveGrupo;
 	}
 
-	public void setCveGrupo(Grupo cveGrupo) {
+	public void setCveGrupo(int cveGrupo) {
 		this.cveGrupo = cveGrupo;
 	}
 
-	public Alumno getCveAlumno() {
+	public int getCveTurno() {
+		return cveTurno;
+	}
+
+	public void setCveTurno(int cveTurno) {
+		this.cveTurno = cveTurno;
+	}
+
+	public int getCvePlan() {
+		return cvePlan;
+	}
+
+	public void setCvePlan(int cvePlan) {
+		this.cvePlan = cvePlan;
+	}
+
+	public int getCveCarrera() {
+		return cveCarrera;
+	}
+
+	public void setCveCarrera(int cveCarrera) {
+		this.cveCarrera = cveCarrera;
+	}
+
+	public int getCveDivision() {
+		return cveDivision;
+	}
+
+	public void setCveDivision(int cveDivision) {
+		this.cveDivision = cveDivision;
+	}
+
+	public int getCveUnidadAcademica() {
+		return cveUnidadAcademica;
+	}
+
+	public void setCveUnidadAcademica(int cveUnidadAcademica) {
+		this.cveUnidadAcademica = cveUnidadAcademica;
+	}
+
+	public int getCveUniversidad() {
+		return cveUniversidad;
+	}
+
+	public void setCveUniversidad(int cveUniversidad) {
+		this.cveUniversidad = cveUniversidad;
+	}
+
+	public int getCvePeriodo() {
+		return cvePeriodo;
+	}
+
+	public void setCvePeriodo(int cvePeriodo) {
+		this.cvePeriodo = cvePeriodo;
+	}
+
+	public int getCveAlumno() {
 		return cveAlumno;
 	}
 
-	public void setCveAlumno(Alumno cveAlumno) {
+	public void setCveAlumno(int cveAlumno) {
 		this.cveAlumno = cveAlumno;
 	}
 
-	public Materia getCveMateria() {
+	public String getCveMateria() {
 		return cveMateria;
 	}
 
-	public void setCveMateria(Materia cveMateria) {
+	public void setCveMateria(String cveMateria) {
 		this.cveMateria = cveMateria;
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(cveAlumno, cveGrupo, cveMateria);
+		return Objects.hash(cveAlumno, cveCarrera, cveDivision, cveGrupo, cveMateria, cvePeriodo, cvePlan, cveTurno,
+				cveUnidadAcademica, cveUniversidad);
 	}
 
 	@Override
@@ -59,8 +131,10 @@ public class CalificacionAlumnoId implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		CalificacionAlumnoId other = (CalificacionAlumnoId) obj;
-		return Objects.equals(cveAlumno, other.cveAlumno) && Objects.equals(cveGrupo, other.cveGrupo)
-				&& Objects.equals(cveMateria, other.cveMateria);
+		return cveAlumno == other.cveAlumno && cveCarrera == other.cveCarrera && cveDivision == other.cveDivision
+				&& cveGrupo == other.cveGrupo && Objects.equals(cveMateria, other.cveMateria)
+				&& cvePeriodo == other.cvePeriodo && cvePlan == other.cvePlan && cveTurno == other.cveTurno
+				&& cveUnidadAcademica == other.cveUnidadAcademica && cveUniversidad == other.cveUniversidad;
 	}
 
 }

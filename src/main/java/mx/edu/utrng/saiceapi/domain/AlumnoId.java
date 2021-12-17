@@ -18,6 +18,22 @@ public class AlumnoId implements Serializable {
 		this.cveUniversidad = cveUniversidad;
 	}
 
+	public int getCveAlumno() {
+		return cveAlumno;
+	}
+
+	public void setCveAlumno(int cveAlumno) {
+		this.cveAlumno = cveAlumno;
+	}
+
+	public int getCveUniversidad() {
+		return cveUniversidad;
+	}
+
+	public void setCveUniversidad(int cveUniversidad) {
+		this.cveUniversidad = cveUniversidad;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(cveAlumno, cveUniversidad);
