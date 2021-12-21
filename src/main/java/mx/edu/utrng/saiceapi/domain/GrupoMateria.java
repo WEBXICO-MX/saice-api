@@ -7,12 +7,15 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinColumns;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "grupo_materia")
-@IdClass(GrupoMateria.class)
-public class GrupoMateria implements Serializable{
+@IdClass(GrupoMateriaId.class)
+public class GrupoMateria implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id
 	@Column(name = "cve_grupo")
@@ -42,10 +45,17 @@ public class GrupoMateria implements Serializable{
 	@Column(name = "cve_materia")
 	private String cveMateria;
 
+	@Column(name = "cve_maestro")
 	private Integer cveMaestro;
 	private Integer cveAula;
 	private Byte cveEdificio;
 	private Integer unidades;
+
+	@ManyToOne(optional = false)
+	@JoinColumns({
+			@JoinColumn(name = "cve_maestro", referencedColumnName = "cve_maestro", insertable = false, updatable = false),
+			@JoinColumn(name = "cve_universidad", referencedColumnName = "cve_universidad", insertable = false, updatable = false) })
+	private Maestro maestro;
 
 	public GrupoMateria() {
 		super();
@@ -155,19 +165,27 @@ public class GrupoMateria implements Serializable{
 		this.unidades = unidades;
 	}
 
+	public Maestro getMaestro() {
+		return maestro;
+	}
+
+	public void setMaestro(Maestro maestro) {
+		this.maestro = maestro;
+	}
+
 	@Override
 	public String toString() {
 		return "GrupoMateria [cveGrupo=" + cveGrupo + ", cveTurno=" + cveTurno + ", cvePeriodo=" + cvePeriodo
 				+ ", cvePlan=" + cvePlan + ", cveCarrera=" + cveCarrera + ", cveDivision=" + cveDivision
 				+ ", cveUnidadAcademica=" + cveUnidadAcademica + ", cveUniversidad=" + cveUniversidad + ", cveMateria="
 				+ cveMateria + ", cveMaestro=" + cveMaestro + ", cveAula=" + cveAula + ", cveEdificio=" + cveEdificio
-				+ ", unidades=" + unidades + "]";
+				+ ", unidades=" + unidades + ", maestro=" + maestro + "]";
 	}
 
 	@Override
 	public int hashCode() {
 		return Objects.hash(cveAula, cveCarrera, cveDivision, cveEdificio, cveGrupo, cveMaestro, cveMateria, cvePeriodo,
-				cvePlan, cveTurno, cveUnidadAcademica, cveUniversidad, unidades);
+				cvePlan, cveTurno, cveUnidadAcademica, cveUniversidad, maestro, unidades);
 	}
 
 	@Override
@@ -185,7 +203,8 @@ public class GrupoMateria implements Serializable{
 				&& Objects.equals(cveMateria, other.cveMateria) && Objects.equals(cvePeriodo, other.cvePeriodo)
 				&& Objects.equals(cvePlan, other.cvePlan) && Objects.equals(cveTurno, other.cveTurno)
 				&& Objects.equals(cveUnidadAcademica, other.cveUnidadAcademica)
-				&& Objects.equals(cveUniversidad, other.cveUniversidad) && Objects.equals(unidades, other.unidades);
+				&& Objects.equals(cveUniversidad, other.cveUniversidad) && Objects.equals(maestro, other.maestro)
+				&& Objects.equals(unidades, other.unidades);
 	}
 
 }
