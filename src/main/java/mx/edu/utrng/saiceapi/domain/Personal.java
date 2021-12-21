@@ -2,15 +2,18 @@ package mx.edu.utrng.saiceapi.domain;
 
 import java.util.Date;
 import java.util.Objects;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.IdClass;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
-import javax.persistence.MappedSuperclass;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-@MappedSuperclass
-@Inheritance(strategy=InheritanceType.JOINED)
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+@Entity
 @Table(name = "personal")
 @IdClass(PersonalId.class)
 public class Personal extends Persona {
@@ -28,6 +31,10 @@ public class Personal extends Persona {
 	private Integer cveCapturo;
 	private Date fechaCaptura;
 	private Integer cveTipoContratacion;
+
+	@OneToMany(fetch = FetchType.LAZY, cascade = { CascadeType.ALL }, mappedBy = "maestro")
+	@JsonIgnore
+	private Set<GrupoMateria> gruposMateria;
 
 	public Personal() {
 		super();
@@ -135,15 +142,16 @@ public class Personal extends Persona {
 				+ cveOrganigrama + ", numeroNomina=" + numeroNomina + ", numeroTarjeta=" + numeroTarjeta
 				+ ", fechaAdscripcion=" + fechaAdscripcion + ", activo=" + activo + ", salario=" + salario
 				+ ", fechaAlta=" + fechaAlta + ", cveCapturo=" + cveCapturo + ", fechaCaptura=" + fechaCaptura
-				+ ", cveTipoContratacion=" + cveTipoContratacion + "]";
+				+ ", cveTipoContratacion=" + cveTipoContratacion + ", gruposMateria=" + gruposMateria + "]";
 	}
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime * result + Objects.hash(activo, cveCapturo, cveCategoria, cveOrganigrama, cvePuesto,
-				cveTipoContratacion, fechaAdscripcion, fechaAlta, fechaCaptura, numeroNomina, numeroTarjeta, salario);
+		result = prime * result
+				+ Objects.hash(activo, cveCapturo, cveCategoria, cveOrganigrama, cvePuesto, cveTipoContratacion,
+						fechaAdscripcion, fechaAlta, fechaCaptura, gruposMateria, numeroNomina, numeroTarjeta, salario);
 		return result;
 	}
 
@@ -156,12 +164,13 @@ public class Personal extends Persona {
 		if (getClass() != obj.getClass())
 			return false;
 		Personal other = (Personal) obj;
-		return activo == other.activo && Objects.equals(cveCapturo, other.cveCapturo)
+		return Objects.equals(activo, other.activo) && Objects.equals(cveCapturo, other.cveCapturo)
 				&& Objects.equals(cveCategoria, other.cveCategoria)
 				&& Objects.equals(cveOrganigrama, other.cveOrganigrama) && Objects.equals(cvePuesto, other.cvePuesto)
 				&& Objects.equals(cveTipoContratacion, other.cveTipoContratacion)
 				&& Objects.equals(fechaAdscripcion, other.fechaAdscripcion)
 				&& Objects.equals(fechaAlta, other.fechaAlta) && Objects.equals(fechaCaptura, other.fechaCaptura)
+				&& Objects.equals(gruposMateria, other.gruposMateria)
 				&& Objects.equals(numeroNomina, other.numeroNomina)
 				&& Objects.equals(numeroTarjeta, other.numeroTarjeta) && Objects.equals(salario, other.salario);
 	}

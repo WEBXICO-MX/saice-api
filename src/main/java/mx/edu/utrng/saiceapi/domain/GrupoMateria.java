@@ -53,9 +53,9 @@ public class GrupoMateria implements Serializable {
 
 	@ManyToOne(optional = false)
 	@JoinColumns({
-			@JoinColumn(name = "cve_maestro", referencedColumnName = "cve_maestro", insertable = false, updatable = false),
+			@JoinColumn(name = "cve_maestro", referencedColumnName = "cve_persona", insertable = false, updatable = false),
 			@JoinColumn(name = "cve_universidad", referencedColumnName = "cve_universidad", insertable = false, updatable = false) })
-	private Maestro maestro;
+	private Personal maestro;
 
 	public GrupoMateria() {
 		super();
@@ -165,11 +165,11 @@ public class GrupoMateria implements Serializable {
 		this.unidades = unidades;
 	}
 
-	public Maestro getMaestro() {
+	public Personal getMaestro() {
 		return maestro;
 	}
 
-	public void setMaestro(Maestro maestro) {
+	public void setMaestro(Personal maestro) {
 		this.maestro = maestro;
 	}
 

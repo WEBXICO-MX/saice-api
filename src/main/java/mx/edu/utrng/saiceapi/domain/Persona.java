@@ -5,15 +5,15 @@ import java.util.Date;
 import java.util.Objects;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import javax.persistence.MappedSuperclass;
 import javax.persistence.Table;
 
-@MappedSuperclass
-@Inheritance(strategy=InheritanceType.SINGLE_TABLE)
+@Entity
+@Inheritance(strategy=InheritanceType.JOINED)
 @Table(name = "personas")
 @IdClass(PersonaId.class)
 public class Persona implements Serializable{
