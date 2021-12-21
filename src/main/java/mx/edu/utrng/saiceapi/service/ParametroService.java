@@ -6,5 +6,5 @@ import mx.edu.utrng.saiceapi.domain.Parametro;
 import mx.edu.utrng.saiceapi.service.dto.ParametroBusquedaDTO;
 
 public interface ParametroService {
-	public List<Parametro> findBycveParametrodAndcvePeriodo(ParametroBusquedaDTO parametro);
+	public List<Parametro> findCveParametroBy(ParametroBusquedaDTO parametro);
 }

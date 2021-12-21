@@ -16,7 +16,7 @@ public class ParametroServiceImpl implements ParametroService {
 	ParametroRepository parametroRepository;
 	
 	@Override
-	public List<Parametro> findBycveParametrodAndcvePeriodo(ParametroBusquedaDTO parametro) {
+	public List<Parametro> findCveParametroBy(ParametroBusquedaDTO parametro) {
 		// TODO Auto-generated method stub
 		List<String> parametros = Arrays.asList(parametro.getCveParametros().split(",", -1));
 		return parametroRepository.findByCveParametroInAndCvePeriodo(parametros, parametro.getCvePeriodo());

@@ -8,6 +8,7 @@ public class ParametroId implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private Integer cveUniversidad;
 	private Integer cvePeriodo;
+	private String cveParametro;
 
 	public ParametroId() {
 		super();
@@ -29,9 +30,17 @@ public class ParametroId implements Serializable {
 		this.cvePeriodo = cvePeriodo;
 	}
 
+	public String getCveParametro() {
+		return cveParametro;
+	}
+
+	public void setCveParametro(String cveParametro) {
+		this.cveParametro = cveParametro;
+	}
+
 	@Override
 	public int hashCode() {
-		return Objects.hash(cvePeriodo, cveUniversidad);
+		return Objects.hash(cveParametro, cvePeriodo, cveUniversidad);
 	}
 
 	@Override
@@ -43,7 +52,8 @@ public class ParametroId implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		ParametroId other = (ParametroId) obj;
-		return Objects.equals(cvePeriodo, other.cvePeriodo) && Objects.equals(cveUniversidad, other.cveUniversidad);
+		return Objects.equals(cveParametro, other.cveParametro) && Objects.equals(cvePeriodo, other.cvePeriodo)
+				&& Objects.equals(cveUniversidad, other.cveUniversidad);
 	}
 
 }

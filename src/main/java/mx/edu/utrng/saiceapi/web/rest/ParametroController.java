@@ -25,6 +25,6 @@ public class ParametroController {
 	@RequestMapping("/parametros")
 	public List<Parametro> getParametros(@Valid @RequestBody ParametroBusquedaDTO parametroBusqueda) {
 		// TODO Auto-generated method stub
-		return parametroService.findBycveParametrodAndcvePeriodo(parametroBusqueda);
+		return parametroService.findCveParametroBy(parametroBusqueda);
 	}
 }
