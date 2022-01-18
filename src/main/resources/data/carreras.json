@@ -11,7 +11,7 @@
 				"8o.":["Matemáticas para ingeniería II","Administración de base de datos","Desarrollo web profesional","Seguridad en el desarrollo de aplicaciones","Optativa I","Inglés VII","Planeación y organización del trabajo"],
 				"9o.":["Administración de proyectos de TI","Extracción de conocimiento en base de datos","Desarrollo web integral","Desarrollo para dispostivos inteligentes","Inglés VIII","Dirección de equipos de alto rendimiento"],
 				"10o.":["Gestión del proceso de desarrollo de software","Aplicaciones web progresivas","Integradora","Desarrollo móvil integral","Optativa 1: Creación de videojuegos","Inglés IX","Negociación empresarial"],
-				"11o.":["Estadía"]
+				"11o.":["ESTADÍA"]
 			}			
 		},
 		"tsu": {
@@ -26,7 +26,7 @@
 				"3o.":["Calculo diferencial","Probabilidad y estadística","Sistemas Operativos","Integradora I","Aplicaciones Web","Base de datos para aplicaciones","Inglés III", "Formación sociocultural III"],
 				"4o.":["Estándares y métricas para el desarrolo de software", "Principios para IoT","Diseño de Apps","Estructura de datos Aplicadas","Aplicaciones Web orientada a servicios","Evaluación y mejora para el desarrollo de software","Inglés IV", "Formación sociocultural IV"],
 				"5o.":["Aplicaciones de IoT","Desarrollo móvil multiplataforma", "Integradora II","Aplicaciones Web para l4.0","Base de datos para cómputo en la  nube","Expresión oral y escrita II","Inglés V"],
-				"6o.":["Estadía"]
+				"6o.":["ESTADÍA"]
 			}
 		}
 	},
@@ -42,7 +42,7 @@
 				"8o.":["MATEMÁTICAS PARA INGENIERÍA II","TECNOLOGÍAS DE LOS MECANISMOS","PROCESOS DE CONFORMADO","INGENIERÍA ECONÓMICA","INGLÉS VII","PLANEACIÓN Y ORGANIZACIÓN DEL TRABAJO"],
 				"9o.":["MECÁNICA DE SÓLIDOS","DISEÑO ASISTIDO POR COMPUTADORA","TRANSFERENCIA DE CALOR","SEGURIDAD E HIGIENE INDUSTRIAL","INTEGRADORA I","SEGURIDAD E HIGIENE INDUSTRIAL","INTEGRADORA I","OPTATIVA I","DIRECCIÓN DE EQUIPOS DE ALTO RENDIMIENTO"],
 				"10o.":["MANUFACTURA ASISTIDA POR COMPUTADORA","DISEÑO MECÁNICO","INSTRUMENTACIÓN Y CONTROL","INTEGRADORA II","OPTATIVA II","INGLÉS IX","NEGOCIACIÓN EMPRESARIAL"],
-				"11o.":["Estadía"]
+				"11o.":["ESTADÍA"]
 			}
 		},
 		"tsu": {
@@ -57,7 +57,7 @@
 				"3o.":["CÁLCULO DIFERENCIAL","ESTRUCTURA Y PROPIEDADES DE LOS MATERIALES ","RESISTENCIA DE MATERIALES","TECNOLOGIAS DE MANUFACTURA","MANUFACTURA II","TÓPICOS DE MECÁNICA","INTEGRADORA I","INGLÉS III","FORMACIÓN SOCIOCULTURAL II"],
 				"4o.":["CÁLCULO INTEGRAL","TERMODINÁMICA","SEGURIDAD INDUSTRIAL","ANÁLISIS Y SELECCIÓN DE ELEMENTOS MECÁNICOS","INSTRUMENTACIÓN INDUSTRIAL","MANTENIMIENTO","HIDRÁULICA","INGLÉS IV","FORMACIÓN SOCIOCULTURAL III"],
 				"5o.":["SISTEMAS DE COMBUSTIÓN Y CALDERAS","AIRE ACONDICIONADO Y REFRIGERACIÓN","AUTOMATIZACIÓN Y CONTROL ","INGENIERÍA INDUSTRIAL","VEHÍCULOS AUTOMOTORES","INTEGRADORA II","INGLÉS V","EXPRESIÓN ORAL Y ESCRITA II","FORMACIÓN SOCIOCULTURAL IV"],
-				"6o.":["Estadía"]
+				"6o.":["ESTADÍA"]
 			}
 		}
 	},
@@ -68,12 +68,12 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
-				"vigencia_desde":"",
-				"7o.":[],
-				"8o.":[],
-				"9o.":[],
-				"10o.":[],
-				"11o.":["Estadía"]
+				"vigencia_desde":"DEL PLAN DE ESTUDIOS VIGENTE EN SEPTIEMBRE DE 2017",
+				"7o.":["MATEMÁTICAS PARA INGENIERÍA I","ESTADÍSTICA APLICADA A LA INGENIERÍA","TERMODINÁMICA","MANUFACTURA ESBELTA","ESTUDIO DE MERCADO","INGLÉS VI","ADMINISTRACIÓN DEL TIEMPO"],
+				"8o.":["MATEMÁTICAS PARA INGENIERÍA II","FÍSICA PARA INGENIERÍA","METROLOGÍA INDUSTRIAL","INGENIERÍA DE MATERIALES","OPTATIVA I","INGLÉS VII","PLANEACIÓN Y ORGANIZACIÓN DEL TRABAJO"],
+				"9o.":["LOGÍSTICA DE MATERIALES","TÓPICOS AVANZADOS DE CALIDAD","DESARROLLO Y SEGUIMIENTO DE PROYECTOS","INTEGRADORA I","INVESTIGACIÓN DE OPERACIONES","OPTATIVA II","INGLÉS VIII"],
+				"10o.":["INGENIERÍA DE PROCESOS","AUTOMATIZACIÓN DE PROCESOS","ANÁLISIS DE PROYECTOS DE INVERSIÓN","INTEGRADORA II","INGLÉS IX","DIRECCIÓN DE EQUIPOS DE ALTO RENDIMIENTO","NEGOCIACIÓN EMPRESARIAL"],
+				"11o.":["ESTADÍA"]
 			}
 		},
 		"tsu": {
@@ -82,13 +82,13 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
-				"vigencia_desde":"",
-				"1o.":[],
-				"2o.":[],
-				"3o.":[],
-				"4o.":[],
-				"5o.":[],
-				"6o.":["Estadía"]
+				"vigencia_desde":"DEL PLAN DE ESTUDIOS VIGENTE EN SEPTIEMBRE DE 2018",
+				"1o.":["ALGEBRA LINEAL","QUÍMICA BÁSICA","ORGANIZACIÓN INDUSTRIAL","METROLOGÍA I"," DIBUJO INDUSTRIAL","TECNOLOGÍAS PARA LA DIGITALIZACIÓN","INGLÉS I","EXPRESIÓN ORAL Y ESCRITA I","FORMACIÓN SOCIOCULTURAL I"],
+				"2o.":["FUNCIONES MATEMÁTICAS","FÍSICA","PROBABILIDAD Y ESTADÍSTICA","ELECTRICIDAD Y MAGNETISMO","MÉTODOS Y SISTEMAS DE TRABAJO I","DISTRIBUCIÓN DE PLANTA","COSTOS DE PRODUCCIÓN","INGLÉS  II","FORMACIÓN SOCIOCULTURAL II"],
+				"3o.":["CÁLCULO DIFERENCIAL","CONTROL ESTADÍSTICO DEL PROCESO","PROCESOS DE MANUFACTURA I","TÓPICOS DE MANUFACTURA","INTEGRADORA I","MÉTODOS Y SISTEMAS DE TRABAJO II","SEGURIDAD E HIGIENE INDUSTRIAL","ADMINISTRACIÓN DE LA PRODUCCIÓN  I","INGLÉS  III"],
+				"4o.":["CÁLCULO INTEGRAL","ESTRUCTURA Y PROPIEDADES DE LOS MATERIALES","ADMINISTRACIÓN DE LA  CALIDAD","GESTIÓN AMBIENTAL","ADMINISTRACIÓN DE LA PRODUCCIÓN II","DIBUJO INDUSTRIAL AVANZADO","FUNDAMENTOS DE INGENIERÍA ECONÓMICA","INGLÉS IV","FORMACIÓN SOCIOCULTURAL III"],
+				"5o.":["FUNDAMENTOS DE LEGISLACIÓN INDUSTRIAL","PROCESOS DE MANUFACTURA II","CADENA DE SUMINISTROS","MANUFACTURA APLICADA","PROCESOS QUÍMICOS","INTEGRADORA II","INGLÉS  V","EXPRESIÓN ORAL Y ESCRITA II","FORMACIÓN SOCIOCULTURAL IV"],
+				"6o.":["ESTADÍA"]
 			}
 		}
 	},
@@ -99,12 +99,12 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
-				"vigencia_desde":"",
-				"7o.":[],
-				"8o.":[],
-				"9o.":[],
-				"10o.":[],
-				"11o.":["Estadía"]
+				"vigencia_desde":"Septiembre de 2009",
+				"7o.":["Costos de Manufactura","Mercadotecnia Industrial","Física de Fibras e Hilados","Técnicas para el Dibujo de Modas","Calidad","Idioma Extranjero I","Administración del tiempo"],
+				"8o.":["Química para Acabados Textiles","Sistemas de Manufactura","Historia y Sociología de la Moda","Diseño de Telas","Optativa I","Idioma Extranjero II","Planeación y organización del trabajo"],
+				"9o.":["Materiales y Accesorios para el Diseño","Patronaje y Graduación","Maquinaria Textil y Equipo de Confección","Procesos de Confección","Integradora I","Idioma Extranjero III","Dirección de equipos de alto rendimiento"],
+				"10o.":["Patronaje y Graduación  Digital","Diseño de Moda ","Integradora II","Optativa II","Idioma Extranjero IV","Negociación empresarial"],
+				"11o.":["ESTADÍA"]
 			}
 		},
 		"tsu": {
@@ -113,13 +113,13 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
-				"vigencia_desde":"",
-				"1o.":[],
-				"2o.":[],
-				"3o.":[],
-				"4o.":[],
-				"5o.":[],
-				"6o.":["Estadía"]
+				"vigencia_desde":"DEL PLAN DE ESTUDIOS VIGENTE EN SEPTIEMBRE DE 2018",
+				"1o.":["INFORMÁTICA PARA  DISEÑO DE MODA","CREATIVIDAD DEL DISEÑO","TÉCNICAS DE ILUSTRACIÓN","PATRONAJE INDUSTRIAL PARA DAMA","MÉTODOS DE CONFECCIÓN I","INGLÉS I","EXPRESIÓN ORAL Y ESCRITA I","FORMACIÓN SOCIOCULTURAL I"],
+				"2o.":["HISTORIA DEL ARTE Y LA MODA","FUNDAMENTOS TEXTILES I","TEORÍA DEL COLOR","ILUSTRACIÓN DE MODA POR COMPUTADORA I","ILUSTRACIÓN DE MODA I","PATRONAJE INDUSTRIAL PARA CABALLERO Y NIÑO ","INGLÉS II","FORMACIÓN SOCIOCULTURAL II"],
+				"3o.":["MATEMÁTICAS","ILUSTRACIÓN DE MODA POR COMPUTADORA II","MÉTODOS DE CONFECCIÓN II","SISTEMAS DE GRADUACIÓN INDUSTRIAL","FUNDAMENTOS TEXTILES II","INTEGRADORA I","METODOLOGÍA DE LA  INVESTIGACIÓN","INGLÉS III","FORMACIÓN SOCIOCULTURAL III"],
+				"4o.":["ESTADÍSTICA","COSTOS DE MANUFACTURA","PLANEACIÓN DE LA PRODUCCIÓN","MERCADOTECNIA DE LA MODA","PATRONAJE POR COMPUTADORA","INGLÉS IV","FORMACIÓN SOCIOCULTURAL IV"],
+				"5o.":["CALIDAD EN LA INDUSTRIA DEL VESTIDO ","SISTEMAS DE CONFECCIÓN INDUSTRIAL","PROCESOS DE MANUFACTURA","GRADUACIÓN POR COMPUTADORA","INTEGRADORA II","INGLÉS V","EXPRESIÓN ORAL Y ESCRITA II"],
+				"6o.":["ESTADÍA"]
 			}
 		}
 	},
@@ -130,12 +130,12 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
-				"vigencia_desde":"",
-				"7o.":[],
-				"8o.":[],
-				"9o.":[],
-				"10o.":[],
-				"11o.":["Estadía"]
+				"vigencia_desde":"DEL PLAN DE ESTUDIOS VIGENTE EN SEPTIEMBRE DE 2017",
+				"7o.":["MATEMÁTICAS PARA INGENIERÍA I","FÍSICA PARA INGENIERÍA","INSTRUMENTACIÓN VIRTUAL","ELECTRICIDAD INDUSTRIAL","INGLÉS VI","ADMINISTRACIÓN DEL TIEMPO"],
+				"8o.":["MATEMÁTICAS PARA INGENIERÍA II","MECÁNICA PARA LA AUTOMATIZACIÓN","CONTROL DE MOTORES II","DISEÑO ASISTIDO POR COMPUTADORA","INGLÉS VII","PLANEACIÓN Y ORGANIZACIÓN DEL TRABAJO"],
+				"9o.":["CONTROL AUTOMÁTICO","INGENIERÍA DE PROYECTOS","SISTEMAS MECÁNICOS II","ROBÓTICA","INGLÉS VIII","DIRECCIÓN DE EQUIPOS DE ALTO RENDIMIENTO"],
+				"10o.":["SISTEMAS DE MANUFACTURA FLEXIBLE","CONTROL LÓGICO AVANZADO","DISPOSITIVOS DIGITALES PROGRAMABLES","INTEGRADORA III","INGLÉS IX","NEGOCIACIÓN EMPRESARIAL"],
+				"11o.":["ESTADÍA"]
 			}
 		},
 		"tsu": {
@@ -144,13 +144,13 @@
 			"area": "",
 			"competencias_profesionales":{"descripcion":"","competencias_genericas":[],"competencias_especificas":[],"perfil_egreso":[]},
 			"plan_estudios":{
-				"vigencia_desde":"",
-				"1o.":[],
-				"2o.":[],
-				"3o.":[],
-				"4o.":[],
-				"5o.":[],
-				"6o.":["Estadía"]
+				"vigencia_desde":"DEL PLAN DE ESTUDIOS VIGENTE EN SEPTIEMBRE DE 2018",
+				"1o.":["ÁLGEBRA LINEAL","FÍSICA","ELECTRICIDAD Y MAGNETISMO","HERRAMIENTAS INFORMÁTICAS I4.0","PROCESOS PRODUCTIVOS","ELEMENTOS DIMENSIONALES","INGLÉS I","EXPRESIÓN ORAL Y ESCRITA I","FORMACIÓN SOCIOCULTURAL I"],
+				"2o.":["FUNCIONES MATEMÁTICAS","QUÍMICA BÁSICA","CIRCUITOS ELÉCTRICOS","SISTEMAS HIDRÁULICOS Y NEUMÁTICOS","ELECTRÓNICA ANALÓGICA","CONTROL DE MOTORES I","INGLÉS II","FORMACIÓN SOCIOCULTURAL II"],
+				"3o.":["CÁLCULO DIFERENCIAL","PROBABILIDAD Y ESTADÍSTICA","TERMODINÁMICA","CONTROLADORES LÓGICOS PROGRAMABLES","ELECTRÓNICA DIGITAL","SISTEMAS MECÁNICOS I","INTEGRADORA I","INGLÉS III","FORMACIÓN SOCIOCULTURAL III"],
+				"4o.":["CÁLCULO INTEGRAL","ESTRUCTURA Y PROPIEDADES DE LOS MATERIALES","INSTRUMENTACIÓN INDUSTRIAL","ANÁLISIS DE CIRCUITOS ELÉCTRICOS","DISPOSITIVOS DIGITALES","LENGUAJE DE PROGRAMACIÓN","DISPOSITIVOS ANALÓGICOS","INGLÉS IV","FORMACIÓN SOCIOCULTURAL IV"],
+				"5o.":["INTEGRADORA II","PROGRAMACIÓN VISUAL","INTEGRACIÓN DE SISTEMAS AUTOMÁTICOS","MICROCONTROLADORES","FUNDAMENTOS DE INSTRUMENTACIÓN VIRTUAL","SISTEMAS DE CONTROL","INGLÉS V","EXPRESIÓN ORAL Y ESCRITA II"],
+				"6o.":["ESTADÍA"]
 			}
 		}
 	},
@@ -166,7 +166,7 @@
 				"8o.":[],
 				"9o.":[],
 				"10o.":[],
-				"11o.":["Estadía"]
+				"11o.":["ESTADÍA"]
 			}
 		},
 		"tsu": {
@@ -181,7 +181,7 @@
 				"3o.":[],
 				"4o.":[],
 				"5o.":[],
-				"6o.":["Estadía"]
+				"6o.":["ESTADÍA"]
 			}
 		}
 	},
@@ -197,7 +197,7 @@
 				"8o.":[],
 				"9o.":[],
 				"10o.":[],
-				"11o.":["Estadía"]
+				"11o.":["ESTADÍA"]
 			}
 		},
 		"tsu": {
@@ -212,7 +212,7 @@
 				"3o.":[],
 				"4o.":[],
 				"5o.":[],
-				"6o.":["Estadía"]
+				"6o.":["ESTADÍA"]
 			}
 		}
 	},
@@ -228,7 +228,7 @@
 				"8o.":[],
 				"9o.":[],
 				"10o.":[],
-				"11o.":["Estadía"]
+				"11o.":["ESTADÍA"]
 			}
 		},
 		"tsu": {
@@ -243,7 +243,7 @@
 				"3o.":[],
 				"4o.":[],
 				"5o.":[],
-				"6o.":["Estadía"]
+				"6o.":["ESTADÍA"]
 			}
 		}
 	}
