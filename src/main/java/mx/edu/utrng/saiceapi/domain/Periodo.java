@@ -9,17 +9,18 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
-@Table(name="periodos")
+@Table(name = "periodos")
 @IdClass(PeriodoId.class)
 public class Periodo implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id
-	@Column(name="cve_periodo")
+	@Column(name = "cve_periodo")
 	private Integer cvePeriodo;
 	@Id
-	@Column(name="cve_universidad")
+	@Column(name = "cve_universidad")
 	private Integer cveUniversidad;
 	private Integer cveCiclo;
 	private Integer numeroPeriodo;
@@ -27,6 +28,10 @@ public class Periodo implements Serializable {
 	private Date fechaInicio;
 	private Date fechaFin;
 	private Boolean activo;
+	@Transient
+	private String texto;
+	@Transient
+	private final String[] mes = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
 
 	public Periodo() {
 		super();
@@ -96,16 +101,26 @@ public class Periodo implements Serializable {
 		this.activo = activo;
 	}
 
+	@SuppressWarnings("deprecation")
+	public String getTexto() {
+		return mes[this.fechaInicio.getMonth()] + "-" + mes[this.fechaFin.getMonth()] +" de " + (String.valueOf(this.ano));
+	}
+
+	public void setTexto(String texto) {
+		this.texto = texto;
+	}
+
 	@Override
 	public String toString() {
 		return "Periodo [cvePeriodo=" + cvePeriodo + ", cveUniversidad=" + cveUniversidad + ", cveCiclo=" + cveCiclo
 				+ ", numeroPeriodo=" + numeroPeriodo + ", ano=" + ano + ", fechaInicio=" + fechaInicio + ", fechaFin="
-				+ fechaFin + ", activo=" + activo + "]";
+				+ fechaFin + ", activo=" + activo + ", texto=" + texto + "]";
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(activo, ano, cveCiclo, cvePeriodo, cveUniversidad, fechaFin, fechaInicio, numeroPeriodo);
+		return Objects.hash(activo, ano, cveCiclo, cvePeriodo, cveUniversidad, fechaFin, fechaInicio, numeroPeriodo,
+				texto);
 	}
 
 	@Override
@@ -120,7 +135,8 @@ public class Periodo implements Serializable {
 		return Objects.equals(activo, other.activo) && Objects.equals(ano, other.ano)
 				&& Objects.equals(cveCiclo, other.cveCiclo) && Objects.equals(cvePeriodo, other.cvePeriodo)
 				&& Objects.equals(cveUniversidad, other.cveUniversidad) && Objects.equals(fechaFin, other.fechaFin)
-				&& Objects.equals(fechaInicio, other.fechaInicio) && Objects.equals(numeroPeriodo, other.numeroPeriodo);
+				&& Objects.equals(fechaInicio, other.fechaInicio) && Objects.equals(numeroPeriodo, other.numeroPeriodo)
+				&& Objects.equals(texto, other.texto);
 	}
 
 }
